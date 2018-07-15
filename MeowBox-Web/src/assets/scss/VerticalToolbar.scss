@@ -1,0 +1,23 @@
+@import 'Variable.scss';
+.theme--light .v-card,
+.theme--light.v-card {
+    width: 15vw !important;
+}
+.theme--light .v-list,
+.theme--light.v-list {
+    text-align: left;
+    min-width: 15vw;
+}
+.toobar-item {
+    font-size: 0.9rem;
+}
+.v-list__tile--active {
+    font-weight: bold;
+    color: #fff !important;
+    background: #e68789;
+}
+.v-list__tile--active:hover {
+    font-weight: bold;
+    color: #fff !important;
+    background: #efb1b1 !important;
+}

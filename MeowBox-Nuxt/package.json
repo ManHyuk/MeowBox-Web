@@ -1,0 +1,27 @@
+{
+  "name": "MeowBox-Nuxt",
+  "version": "1.0.0",
+  "description": "using Nuxt.js with serverless",
+  "author": "MeowBox",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.0.0",
+    "js-cookie": "^2.2.0",
+    "node-sass": "^4.9.1",
+    "nuxt": "^1.0.0",
+    "sass-loader": "^7.0.3",
+    "vuetify": "^1.0.19",
+    "vuex-persistedstate": "^2.5.4"
+  },
+  "devDependencies": {
+    "cross-env": "^5.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  }
+}
